@@ -6,9 +6,6 @@ https://packagist.org/packages/smce/projects
 https://github.com/smceframework/framework
 
 
-## Gelistirici Hakkinda
-Samed Ceylan
-
 
 # Console
 
@@ -25,3 +22,8 @@ php smce --help |
 
 php smce --grud model connectingstring table_name |
 --- |
+
+
+
+## Gelistirici Hakkinda
+Samed Ceylan
