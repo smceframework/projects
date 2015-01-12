@@ -6,8 +6,7 @@
   <!--[if IE]><meta http-equiv="X-UA-Compatible" content="chrome=1"><![endif]-->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="format-detection" content="telephone=no"/>
-  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
-
+  
   <meta name="description" content="High performing, Secure, Flexible and Simple PHP Framework Application">
   <meta name="keywords" content="php, framework, php framework, mvc, model, view, controller, activerecord, model view controller">
   <meta name="author" content="Samed Ceylan">
