@@ -1,7 +1,7 @@
 {
-    "name": "smce/framework",
-    "description": "SmceFramework",
-	"keywords": ["smce", "framework", "smce framework", "smceframework", "mvc"],
+    "name": "smce/projects",
+    "description": "SmceFramework Projects",
+	"keywords": ["smce", "framework", "smce framework", "smceframework", "mvc"," projects"],
     "license": "MIT",
     "authors": [
         {
