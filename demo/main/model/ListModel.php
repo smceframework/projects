@@ -28,4 +28,19 @@ class ListModel extends SmActiveRecord
 	}
 	
 	
+	public static function getModel($className=__CLASS__)
+	{
+		return $className;
+	}
+    
+    public static function getConnection()
+	{
+		return self::$connection;
+	}
+    
+    public static function getTable()
+	{
+		return self::$table_name;
+	}
+	
 }
