@@ -43,7 +43,7 @@ class ActiverecordController extends SmController
 	
 	public function actionRetrieve(){
 		$model=ListModel::find(2);
-		echo $model->name="Ceylan";
+		echo $model->name;
 		echo "<br><br>";
 		
 		$model2=ListModel::find('all', array('order' => 'listID', 'limit' => 10));
