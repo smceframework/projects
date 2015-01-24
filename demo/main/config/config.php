@@ -21,7 +21,7 @@ return array(
 			"all"=>array("id"),
 			"router"=>array("dataA","dataB"),
 		),
-		'showScriptName'=>false, //false - true
+		'showScriptName'=>true, //false - true
 		
 		/*
 			'showScriptName'=>true,
