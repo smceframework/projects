@@ -2,7 +2,7 @@
 
 
 return array(
-	'appname'=>'Smce Framework',
+	'appname'=>'Smceframework',
 	
 	//security code (change)
 	"securitycode"=>"92378sadjsa712lf92s",

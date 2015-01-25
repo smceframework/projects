@@ -3,7 +3,7 @@
     <div class="content">
       <hgroup>
         <h1>Welcome to SmceFramework!</h1>
-        <h2>High performing, Secure, Flexible and Simple PHP / C++ Framework Application</h2>
+        <h2>High performing, Secure, Flexible and Simple PHP / C Framework Application</h2>
       </hgroup>
       <div class="clear"></div>
         <div class="read-on">
