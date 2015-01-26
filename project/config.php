@@ -15,4 +15,4 @@ define('BASE_PATH', dirname(__FILE__));
 $config = require_once dirname(__FILE__).'/main/config/config.php';
 
 // set the smce path, ex: /home/app/smceframework
-$smce_path=dirname(__FILE__).'/../../smceframework';
+$smce_path=dirname(__FILE__).'/../smceframework';
