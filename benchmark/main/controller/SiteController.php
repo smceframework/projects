@@ -1,5 +1,6 @@
 <?php
 
+use Smce\Core\SmOutput;
 
 class SiteController 
 {
