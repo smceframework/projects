@@ -5,7 +5,7 @@ return array(
 	'appname'=>'Smceframework',
 	
 	//security code (change)
-	"securitycode"=>"9as233ssd82t3am4sxz",
+	"securitycode"=>"92378sadjsa712lf92s",
 
 	// autoloading model and component classes
     'import'=>array(
@@ -13,7 +13,7 @@ return array(
 		'components',
 	),
 
-	'debug'=>false,  // false, "DEVELOPMENT", "PRODUCTION", "DETECT"
+	'debug'=>"DEVELOPMENT",  // false, "DEVELOPMENT", "PRODUCTION", "DETECT"
 	
 	
 	'urlrouter'=>array(
@@ -44,19 +44,15 @@ return array(
 	'components'=>array(
 		
 		//MySQL, SQLite, PostgreSQL, Oracle
+		/*
 		'activerecord'=>array(
-			/*
-			'db1'=>array(
-				"connectionString"=>"mysql://root:password@localhost/db_name;charset=utf8"
-			),
-			*/
+		
+			//"db1"=>"mysql://root:password@localhost/db_name;charset=utf8",
 			
-			/*
-			'db2'=>array(
-				"connectionString"=>"mysql://username:password@localhost/db_name"
-			),
-			*/
+			//"db2"=>"mysql://root:password@localhost/db_name;charset=utf8"
 		),
+		
+		*/
 		
 		/*
 		'ssh'=>array(
