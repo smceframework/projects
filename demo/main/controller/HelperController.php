@@ -1,7 +1,7 @@
 <?php
 
 use Smce\Core\SmController;
-use Smce\Core\SmHelper;
+use Smce\Core\SmHelper as s;
 
 class HelperController extends SmController
 {
@@ -13,7 +13,7 @@ class HelperController extends SmController
 	{
 		$array=array(100, 200, 120, 336, 680, 247, 300, 185, 90, 125, 140);
 
-		echo SmHelper::array_first(function($x){
+		echo s::array_first(function($x){
 			return $x > 200;
 		},$array);
 
@@ -23,7 +23,7 @@ class HelperController extends SmController
 	{
 		$array=array(100, 200, 120, 336, 680, 247, 300, 185, 90, 125, 140);
 
-		echo SmHelper::array_last(function($x){
+		echo s::array_last(function($x){
 			return $x > 200;
 		},$array);
 
@@ -38,7 +38,7 @@ class HelperController extends SmController
 			array('name' => 'Coo'),
 		);
 		
-		$arr=SmHelper::array_sort(function($value)
+		$arr=s::array_sort(function($value)
 		{
 			return $value['name'];
 		},$array);
